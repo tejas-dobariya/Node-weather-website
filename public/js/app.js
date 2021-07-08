@@ -1,4 +1,4 @@
-const { response } = require("express");
+
 
 console.log("I am connected")
 
@@ -10,6 +10,7 @@ const messageTwo=document.querySelector('#message-2')
 // messageOne.textContent='From Javascript'
 
 weatherForm.addEventListener('submit',(e)=>{
+    //debugger
     e.preventDefault()
 
     const location=search.value
